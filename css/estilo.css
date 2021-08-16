@@ -1,0 +1,155 @@
+body{
+    background-image: url(https://sm.ign.com/t/ign_es/news/n/nintendo-c/nintendo-confirms-it-has-new-hardware-planned-but-offers-ver_1dy9.h720.jpg);
+}
+h1 {
+    color: aliceblue;
+    text-align: center;
+
+    
+}
+.link{
+    background-color: rgb(73, 5, 5);
+      float: center;
+      width: 1200px;
+      text-align: left;
+      padding: 10px;
+      font-family: sans-serif;
+    
+    
+}
+.link li a{
+    color: aliceblue;
+}
+.link li{
+    color: aliceblue;
+    display: inline;
+    text-align: center;
+    margin: 10%;
+}
+.articulo{
+    background-color: brown;
+    float: center;
+      width: 1200px;
+      text-align: center;
+      padding: 10px;
+      font-family: sans-serif;
+}
+.lateral_1{
+    float: left;
+    background-color: rgb(75, 0, 0);
+    color: aliceblue;
+    width: 1218px;
+    text-align: left;
+    padding: 1px;
+}
+.articulo2{
+    background-color: brown;
+    float: center;
+      width: 1200px;
+      text-align: center;
+      padding: 10px;
+      font-family: sans-serif;
+}
+.final{
+    background-color: brown;
+    float: center;
+      width: 1200px;
+      text-align: center;
+      padding: 10px;
+      font-family: sans-serif;
+}
+footer p{
+    color: rgb(255, 255, 255);
+}
+
+
+@media screen and (min-width:600px) {
+    /* le diremos que a ambos aside compartan
+    una fila */
+    .lateral_1 {
+        order: 10;
+    }
+    h1 {
+       order: 8;
+    }
+    .link{
+        order: 12;
+    }
+    .link li a{
+        order: 6;
+    }
+    .link li{
+        order: 11;
+    }
+    .articulo{
+        order: 2;
+    }
+    .lateral_1{
+        order: 23; 
+    }
+    .articulo2{
+        order: 3;
+    }
+    .final{
+        order: 7; 
+    }
+    .link a{
+        order: 170;
+    }
+    .lateral_1 p{
+        order: 78;
+    }
+    .articulo2 h1{
+        order: 41;
+    }
+    body{
+        order: 10;
+    }
+    
+}
+
+@media screen and (min-width:800px) {
+    .aside {
+        flex: 3 0;
+    }
+    h1 {
+       order: 4;
+    }
+    .link{
+        order: 5;
+    }
+    .link li a{
+        order: 15;
+    }
+    .link li{
+        order:21;
+    }
+    .articulo{
+        order: 86;
+    }
+    .lateral_1{
+        order: 21; 
+    }
+    .articulo2{
+        order: 14;
+    }
+    .final{
+        order: 54; 
+    }
+     .link a{
+        order: 40;
+    }
+    .lateral_1 p{
+        order: 13;
+    }
+    .articulo2 h1{
+        order: 9;
+    }
+    body{
+        order: 19;
+
+    }
+    
+    
+  
+}
